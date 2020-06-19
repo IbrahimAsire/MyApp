@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff00"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HelpActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="مرحباً بك في برنامجنا . يمكنك من خلال هذا البرنامج ان تقوم بتسجيل بياناتك لدينا بمنتهى السهولة  سواء كنت مستخدم عادي أو سائق . ثم تقوم بالدخول كمستخدم اذا اردت ان تطلب تاكسي أو اذا دخلت كسائق يمكنك من تغيير حالة السواقة لديك أو تغيير موقعك أو معرفة الطلبات التي جاءت الى التاكسي الخاص بك "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="gravity"
+        android:text="Hello to our program. You can through this program that you record your data we have very easily, whether you are a regular user or driver. Then login as a user if you want to ask a taxi driver or if you entered the change of status of the drive you have, or change your site or see requests that came to your taxi"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

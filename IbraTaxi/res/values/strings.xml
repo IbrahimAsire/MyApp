@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IbraTaxi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_request">UserRequestActivity</string>
+    <string name="title_activity_driver_set_location">DriverSetLocationActivity</string>
+    <string name="title_activity_driver_change_status">DriverChangeStatusActivity</string>
+    <string name="title_activity_driver_show_requests">DriverShowRequestsActivity</string>
+    <string name="title_activity_driver_all_requests">DriverAllRequestsActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+</resources>
